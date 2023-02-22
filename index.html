@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Card Hover Effect</title>
+	<style>
+		.card {
+			position: relative;
+			display: inline-block;
+			margin: 0px;
+			width: 900px;
+			height: 1500px;
+			background-color: #fff;
+			box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+			transition: transform 0.2s ease-in-out;
+		}
+		
+		.card:hover {
+			transform: translateY(-10px);
+			box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+			width:900px;
+		}
+		
+		.card img {
+			width: 100%;
+			height: 100%;
+			object-fit: cover;
+			object-position: center;
+			border-top-left-radius: 5px;
+			border-top-right-radius: 5px;
+		}
+		
+		.card .content {
+			position: absolute;
+			bottom: 0;
+			padding: 20px;
+			color: greenyellow;
+			background-color: rgba(0,0,0,0.7);
+			width: 100%;
+			height: 30%;
+			border-bottom-left-radius: 5px;
+			border-bottom-right-radius: 5px;
+			opacity: 0;
+			transition: opacity 0.2s ease-in-out;
+		}
+		
+		.card:hover .content {
+			opacity: 1;
+			
+		}
+		
+		.card h2 {
+			font-size: 24px;
+			margin-top: 0;
+		}
+		
+		.card p {
+			font-size: 21px;
+			margin-bottom: 0;
+		}
+	</style>
+</head>
+<body>
+	<div class="card">
+		<img src="a.jpg" alt="Image">
+		<div class="content">
+			<h2>Friend!P.S.H</h2>
+			<p>
+As I sit down to write this letter, my heart is filled with so much love and warmth for you. I know that we are miles apart, but please know that distance cannot diminish the love and care I have for you. Our friendship has been a beautiful journey, and I am grateful for every moment we have shared together.
+
+I wanted to write to you today to express my sincerest wish for you. I know that being in a long-distance relationship is not always easy, but I believe that you and your partner are strong enough to make it work. I wish for you both to have unwavering love and commitment towards each other, and for your bond to grow stronger with each passing day.
+
+May the distance between you two never dim the light of your love, and may your trust in each other never falter. I hope that you both find ways to stay connected and to support each other, even from afar. May your love continue to thrive and blossom, and may your future be filled with endless happiness and love.
+
+I want you to know that I am always here for you, no matter what. If you ever need someone to talk to or a shoulder to lean on, know that I am just a phone call away. I love you and miss you, my dear friend, and I can't wait for the day when we can be together again.
+    <br>
+Yours always,<br>
+[S.M.K]</p>
+		</div>
+	</div>
+</body>
+</html>
